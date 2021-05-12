@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Create Category</title>
+</head>
+<body>
+    <div class="zoomContainer">
+        <a class="btn zoom"><i class="fas fa-search-plus"></i></a>
+        <a class="btn zoom-out"><i class="fas fa-search-minus"></i></a>
+        <a class="btn zoom-init"><i class="fas fa-recycle"></i></a>
+
+    </div>
+    <div class="container">
+       <div class="main-category">
+        
+             <div class="main-category-name">
+                 <p>
+                    Category
+                    <i id="addItem" class="fas fa-plus-circle"></i>
+                 </p>
+             </div>
+             
+             <div class="main-category-createArea" id="newCatArea">
+                <input type="text" placeholder="add new item" id="input">
+                <i class="fas fa-check-circle" id="add"></i>
+                <i class="fas fa-times-circle" id="cancel"></i>
+             </div>
+   
+       </div>
+
+       <div class="subCategory-container"  id="subCategoryParent">
+
+       </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
